@@ -189,8 +189,7 @@
 /* Forgot Password Link */
 .forgot-password-link {
   text-align: right;
-  margin-top: -12px;
-  margin-bottom: 20px;
+  margin-top: 12px;
 }
 
 .forgot-password-link button {
@@ -226,35 +225,6 @@
   font-size: 13px;
   margin-top: 16px;
   text-align: center;
-}
-
-/* Update input group to accommodate password toggle */
-.input-group {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  padding: 12px 16px;
-  margin-bottom: 16px;
-  transition: all 0.3s;
-}
-
-.input-group:focus-within {
-  border-color: black;
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
-}
-
-.input-group input {
-  flex: 1;
-  border: none;
-  outline: none;
-  font-size: 14px;
-  background: transparent;
-}
-
-.input-group svg:first-child {
-  color: #999;
 }
 
 /* Modal styles (if not already present) */

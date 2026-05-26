@@ -127,7 +127,6 @@ export default function Login() {
           <span className="logo-icon">✓</span>
           <h1>Taski</h1>
         </div>
-        <h2>Welcome back</h2>
         <p className="auth-subtitle">Sign in to your account to continue</p>
         
         {error && <div className="auth-error">{error}</div>}

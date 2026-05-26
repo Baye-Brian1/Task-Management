@@ -91,7 +91,6 @@ export default function Register() {
           <span className="logo-icon">✓</span>
           <h1>Taski</h1>
         </div>
-        <h2>Create an account</h2>
         <p className="auth-subtitle">Get started with Taski today</p>
         
         {error && <div className="auth-error">{error}</div>}
